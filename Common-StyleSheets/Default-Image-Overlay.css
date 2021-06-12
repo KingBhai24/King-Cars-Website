@@ -1,0 +1,42 @@
+﻿/*Sets .Image-Overlay img and h1*/
+
+/*---------------------------------------*/
+#Main-Section .Div-2 .Block-1 .Part-1 figure .Image-Overlay, #Main-Section .Div-1 .Block-1 .Tier-2 .a .Image-Overlay, #Main-Section .Div-1 .Block-1 figure .Image-Overlay, #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure .Image-Overlay /*Home-MasterPage, Sell-Car-Page*/ {
+    margin: 0px;
+    padding: 0px;
+    width: 324px; /*---ADJUST---*/
+    height: 244px; /*---ADJUST---*/
+}
+
+    #Main-Section .Div-2 .Block-1 .Part-1 figure .Image-Overlay img, #Main-Section .Div-1 .Block-1 .Tier-2 .a .Image-Overlay img, #Main-Section .Div-1 .Block-1 figure .Image-Overlay img, #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure .Image-Overlay img {
+        margin: 0px;
+        padding: 0px;
+        width: 320px; /*---ADJUST---*/ /*Due to 2px border*/
+        height: 240px; /*---ADJUST---*/ /*Due to 2px border*/
+        border: 2px outset white;
+    }
+
+    #Main-Section .Div-2 .Block-1 .Part-1 figure .Image-Overlay h1, #Main-Section .Div-1 .Block-1 .Tier-2 .a .Image-Overlay h1, #Main-Section .Div-1 .Block-1 figure .Image-Overlay h1, #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure .Image-Overlay h1 {
+        margin: 0px 0px 0px 2px;/*---ADJUST---*/
+        padding: 20px 0px 10px 0px;/*---ADJUST---*/
+        width: 320px; /*---ADJUST---*/
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        color: transparent;
+        position: relative;
+        top: -62px;/*---ADJUST---*/
+        left: 0px;
+    }
+    /*-------------------Transitions--------------------*/
+    #Main-Section .Div-2 .Block-1 .Part-1 figure .Image-Overlay h1, #Main-Section .Div-1 .Block-1 .Tier-2 .a .Image-Overlay h1, #Main-Section .Div-1 .Block-1 figure .Image-Overlay h1, #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure .Image-Overlay h1 {
+        transition-property: background-color, color;
+        transition-timing-function: linear;
+        transition-duration: 100ms;
+        transition-delay: 0s;
+    }
+
+    #Main-Section .Div-2 .Block-1 .Part-1 figure .Image-Overlay:hover h1, #Main-Section .Div-1 .Block-1 .Tier-2 .a .Image-Overlay:hover h1, #Main-Section .Div-1 .Block-1 figure .Image-Overlay:hover h1, #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure .Image-Overlay:hover h1 {
+        background-color: #121a27;
+        color: white;
+    }

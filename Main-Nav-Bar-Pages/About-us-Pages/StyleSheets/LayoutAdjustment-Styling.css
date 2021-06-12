@@ -1,0 +1,165 @@
+/*---------------------------------------*/
+#Main-Section {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Section .Div-1 /*Container for Heading, Paragraph, Figure*/ {
+        margin: 30px 0px 0px 0px; /*---ADJUST---*/
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Section .Div-1 .Block-1 /*Container for Heading, Paragraph, Figure*/ {
+            margin: 0px;
+            padding: 0px;
+            width: inherit;
+            height: auto;
+        }
+
+            #Main-Section .Div-1 .Block-1 h1 {
+                margin: 0px 0px 15px 0px; /*---ADJUST---*/
+                padding: 0px;
+                font-size: 50px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            #Main-Section .Div-1 .Block-1 .Part-1 /*Container to keep paragraph and image at center*/ {
+                margin: 0px;
+                padding: 0px;
+                width: auto;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+                #Main-Section .Div-1 .Block-1 .Part-1 p {
+                    margin: 0px;
+                    padding: 0px;
+                    width: 500px; /*---ADJUST---*/
+                    height: auto;
+                    font-size: 25px;
+                }
+
+                #Main-Section .Div-1 .Block-1 .Part-1 img {
+                    margin: 0px 0px 0px 10px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: 400px; /*---ADJUST---*/
+                    height: 370px; /*---ADJUST---*/
+                }
+
+    #Main-Section .Div-2 /*Container for Tiers*/ {
+        margin: 20px 0px 0px 0px; /*---ADJUST---*/
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Section .Div-2 .Block-1 /*Container to keep Tiers at center*/ {
+            margin: 0px;
+            padding: 0px;
+            width: inherit;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            #Main-Section .Div-2 .Block-1 .Tier-1 /*Container for Heading and Unordered-lists*/ {
+                margin: 0px;
+                padding: 0px;
+                width: auto;
+                height: auto;
+            }
+
+                #Main-Section .Div-2 .Block-1 .Tier-1 h1 {
+                    margin: 0px;
+                    padding: 0px;
+                    font-size: 50px;
+                    text-align: center;
+                    text-decoration: underline;
+                }
+
+                #Main-Section .Div-2 .Block-1 .Tier-1 .a, #Main-Section .Div-2 .Block-1 .Tier-1 .b /*Container for unordered list items*/ {
+                    margin: 20px 0px 0px 0px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: auto;
+                    height: auto;
+                    list-style-type: none;
+                }
+                #Main-Section .Div-2 .Block-1 .Tier-1 .a li /*Container for Brand-Names*/ {
+                    margin: 40px 0px 0px 0px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: auto;
+                    height: 60px; /*---ADJUST---*/
+                    font-size: 25px;
+                }
+
+                #Main-Section .Div-2 .Block-1 .Tier-1 .b li /*Container for Brand-Logos*/ {
+                    margin: 0px;
+                    padding: 0px;
+                    width: inherit;
+                    height: 100px; /*---ADJUST---*/
+                }
+
+    #Main-Section .Div-3 /*Container for Heading, Tiers*/ {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+        text-align: center;
+    }
+
+        #Main-Section .Div-3 h1 {
+            margin: 10px 0px 50px 0px; /*---ADJUST---*/
+            padding: 0px;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        #Main-Section .Div-3 .Block-1 /*Container to keep Tiers at center*/ {
+            margin: 0px;
+            padding: 0px;
+            display: inline-block;
+        }
+
+            #Main-Section .Div-3 .Block-1 .Tier-1 /*Container for Image, Table*/ {
+                margin: 0px 50px 0px 50px; /*---ADJUST---*/
+                padding: 0px;
+                display: inline-block;
+                text-align: center;
+            }
+
+                #Main-Section .Div-3 .Block-1 .Tier-1 img {
+                    margin: 0px;
+                    padding: 0px;
+                    width: 240px; /*---ADJUST---*/
+                    height: 240px; /*---ADJUST---*/
+                    border-radius: 50%;
+                }
+
+                #Main-Section .Div-3 .Block-1 .Tier-1 table {
+                    margin: 0px;
+                    padding: 0px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                }
+
+                    #Main-Section .Div-3 .Block-1 .Tier-1 table tr {
+                        margin: 10px; /*---ADJUST---*/
+                        padding: 0px; /*---ADJUST---*/
+                    }
+
+                        #Main-Section .Div-3 .Block-1 .Tier-1 table tr td {
+                            margin: 0px;
+                            padding: 0px;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+/*---------------------------------------*/
+/*---------------------------------------*/

@@ -1,0 +1,15 @@
+﻿#Main-Header .Div-3 ul li, #Main-Nav-Bar ul li, #Main-Aside-Bar ul li, #Main-Section .Div-1 .Block-1 .Tier-2 ul li, #Main-Section .Div-2 ul li
+{
+	transition-property: background-color, border-color;
+	transition-timing-function: linear;
+	transition-duration: 100ms;
+	transition-delay: 0s;
+}
+#Main-Header .Div-3 ul li:hover, #Main-Nav-Bar ul li:hover, #Main-Aside-Bar ul li:hover,  #Main-Section .Div-1 .Block-1 .Tier-2 ul li:hover, #Main-Section .Div-2 ul li:hover
+{
+	border-color: transparent;
+	border-left-color: #c4dfe6;
+	border-right-color: #c4dfe6;
+	
+	background-color: #66a5ad;
+}

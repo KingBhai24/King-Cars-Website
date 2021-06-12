@@ -1,0 +1,114 @@
+﻿/*---------------------------------------*/
+#Main-Header {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+    background-color: #121a27;
+}
+
+    #Main-Header .Div-1 {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: 100px; /*---ADJUST---*/
+    }
+
+#Company-Logo {
+    margin: 8px 0px 0px 20px; /*---ADJUST---*/
+    padding: 0px;
+    width: 250px; /*---ADJUST---*/
+    height: 80px; /*---ADJUST---*/
+    float: left;
+    border: 2px solid #07575b;
+    border-radius: 50%;
+}
+
+#Logo-Heading {
+    margin: 20px 0px 0px 20px; /*---ADJUST---*/
+    padding: 0px;
+    float: left;
+    font-size: 40px;
+    color: #c4dfe6;
+    text-decoration: underline;
+}
+
+#Main-Header .Div-2 {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Header .Div-2 h1 {
+        margin: 0px;
+        padding: 10px 0px 10px 0px; /*---ADJUST---*/
+        font-size: 60px;
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+    }
+/*---------------------------------------*/
+#Main-Section {
+    margin: 10px 0px 0px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Section .Div-1 {
+        margin: auto;
+        padding: 0px;
+        width: auto;
+        height: auto;
+    }
+
+        #Main-Section .Div-1 .Block-1 {
+            margin: auto;
+            padding: 0px;
+            width: 245px; /*---ADJUST---*/
+            height: auto;
+        }
+
+            #Main-Section .Div-1 .Block-1 .Tier-1 {
+                margin: 0px;
+                padding: 0px;
+                display: inline-block;
+                background-color: #121a27;
+            }
+
+                #Main-Section .Div-1 .Block-1 .Tier-1 form /*<br/> have been used*/ {
+                    margin: 20px; /*---ADJUST---*/
+                    padding: 0px;
+                    display: inline-block;
+                }
+
+        #Main-Section .Div-1 form label {
+            color: white;
+        }
+
+        #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "text"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "email"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "password"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "date"] {
+            margin: 0px;
+            padding: 0px;
+            width: 200px; /*---ADJUST---*/
+            height: 20px; /*---ADJUST---*/
+        }
+/*---------------------------------------*/
+#Main-Footer{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    width: inherit;
+    height: 50px;
+    background-color: #121a27;
+}
+/*---------------------------------------*/
+/*-----------------Transitions----------------------*/
+#Main-Section .Div-1 .Block-1 .Tier-1 a
+{
+    margin: 0px 0px 20px 20px;
+    color: #c4dfe6;
+}
+#Main-Section .Div-1 .Block-1 .Tier-1 a:hover
+{
+    text-decoration:underline;
+}

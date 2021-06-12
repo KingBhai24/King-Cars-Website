@@ -1,0 +1,79 @@
+﻿/*---------------------------------------*/
+#Main-Section {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Section .Div-1 {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content:flex-start;
+    }
+
+        #Main-Section .Div-1 .Tier-1 {
+            margin: 0px 50px 0px 0px;
+            padding: 0px;
+            flex-basis: 200px; /*---ADJUST---*/
+            background-color: #121a27;
+        }
+
+            #Main-Section .Div-1 .Tier-1 h1 {
+                margin: 0px;
+                padding: 0px;
+                color: white;
+                font-size: 35px;
+                text-align: center;
+                line-height: 120px;
+            }
+
+        #Main-Section .Div-1 Tier-2 {
+            margin: 0px;
+            padding: 0px;
+            flex-basis: 1100px;/*---ADJUST---*/
+            height: auto;
+        }
+
+        #Main-Section .Div-1 .Tier-2 .Block-1 {
+            margin: 0px;
+            padding: 0px;
+            width: inherit;
+            height: auto;
+        }
+
+            #Main-Section .Div-1 .Tier-2 .Block-1 h1 {
+                margin: 0px 0px 10px 0px;
+                padding: 0px;
+                color: #121a27;
+                text-decoration: underline;
+                font-size: 25px;
+            }
+
+            #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 {
+                margin: 0px;
+                padding: 0px;
+                width: inherit;
+                height: auto;
+            }
+
+                #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure {
+                    margin: 0px 30px 0px 0px;
+                    padding: 0px;
+                    display: inline-block;
+                }
+
+                    #Main-Section .Div-1 .Tier-2 .Block-1 .Part-1 figure figcaption {
+                        margin: 0px;
+                        padding: 5px 0px 0px 0px; /*---ADJUST---*/
+                        width: inherit;
+                        height: auto;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        text-align: center;
+                        color: #121a27;
+                    }
+/*---------------------------------------*/

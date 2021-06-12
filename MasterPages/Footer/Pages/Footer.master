@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="../../../Common-StyleSheets/Defaults.css" />
+    <link rel="stylesheet" href="../../../Common-StyleSheets/Default-Image-Overlay.css" />
+    <link rel="stylesheet" href="../../../Common-StyleSheets/Default-UnorderedList-Transitions.css" />
+
+    <link rel="stylesheet" href="../StyleSheets/Footer.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+    <title></title>
+</head>
+<body>
+    <div id="Div-Body">
+        <!-- ===================================== -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- ===================================== -->
+        <footer id="Main-Footer">
+            <div class="Div-1">
+                <div class="Block-1">
+                    <div class="Tier-1">
+                        <h1>Visit Us</h1>
+                        <ul>
+                            <a href="#">
+                                <li>Facebook</li>
+                            </a>
+                            <a href="#">
+                                <li>Whatsapp</li>
+                            </a>
+                            <a href="#">
+                                <li>Instagram</li>
+                            </a>
+                            <a href="#">
+                                <li>Twitter</li>
+                            </a>
+                            <a href="#">
+                                <li>Youtube</li>
+                            </a>
+                            <a href="#">
+                                <li>Pinterest</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="Tier-1">
+                        <h1>Learn More</h1>
+                        <ul>
+                            <a href="#">
+                                <li>Terms and Conditions</li>
+                            </a>
+                            <a href="#">
+                                <li>Privacy Policy</li>
+                            </a>
+                            <a href="#">
+                                <li>Company Profile</li>
+                            </a>
+                            <a href="#">
+                                <li>FAQs</li>
+                            </a>
+                            <a href="#">
+                                <li>Support</li>
+                            </a>
+                            <a href="#">
+                                <li>Blog</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="Tier-1">
+                        <h1>Company</h1>
+                        <ul>
+                            <a href="#">
+                                <li>Company Profile</li>
+                            </a>
+                            <a href="#">
+                                <li>About Company</li>
+                            </a>
+                            <a href="#">
+                                <li>Investors</li>
+                            </a>
+                            <a href="#">
+                                <li>Privacy</li>
+                            </a>
+                            <a href="#">
+                                <li>Careers</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Div-2">
+                <h1>2019 KingCars.com. All Rights Reserved</h1>
+            </div>
+        </footer>
+        <!-- ===================================== -->
+    </div>
+</body>
+</html>

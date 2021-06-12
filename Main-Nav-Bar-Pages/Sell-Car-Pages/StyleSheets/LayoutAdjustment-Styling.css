@@ -1,0 +1,117 @@
+﻿/*------------------------------------------*/
+#Main-Section {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Section .Div-1 {
+        margin: 20px 0px 0px 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Section .Div-1 .Block-1 {
+            margin: auto;
+            padding: 0px;
+            width: 1000px; /*---ADJUST---*/
+            height: 1050px; /*---ADJUST---*/
+        }
+
+            #Main-Section .Div-1 .Block-1 .Tier-1 {
+                margin: 0px;
+                padding: 0px;
+                width: 350px; /*---ADJUST---*/
+                height: inherit;
+                float: left;
+                background-color: #121a27;
+            }
+
+
+                #Main-Section .Div-1 .Block-1 .Tier-1 h1 {
+                    margin: 0px;
+                    padding: 15px 0px 5px 0px;
+                    color: white;
+                    text-align: center;
+                    text-decoration: underline;
+                }
+
+                #Main-Section .Div-1 .Block-1 .Tier-1 form /*<br/> have been used*/ {
+                    margin: auto;
+                    padding: 0px;
+                    width: 300px; /*---ADJUST---*/
+                    height: auto;
+                }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-1 form h3 {
+                        margin: 0px;
+                        padding: 0px;
+                        color: white;
+                        text-decoration: underline;
+                    }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-1 form label {
+                        color: white;
+                    }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "text"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "number"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "email"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "tel"], #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "date"] {
+                        margin: 0px;
+                        padding: 0px;
+                        width: 200px;
+                        height: 20px;
+                    }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-1 form input[type = "file"] {
+                        color: white;
+                    }
+
+            #Main-Section .Div-1 .Block-1 .Tier-2 {
+                margin: 0px;
+                padding: 0px;
+                width: 350px; /*---ADJUST---*/
+                height: inherit;
+                float: right;
+                background-color: #121a27;
+            }
+
+                #Main-Section .Div-1 .Block-1 .Tier-2 h1 {
+                    margin: 0px;
+                    padding: 25px 0px 5px 0px;
+                    text-align: center;
+                    text-decoration: underline;
+                    color: white;
+                }
+
+                #Main-Section .Div-1 .Block-1 .Tier-2 ul {
+                    margin: auto;
+                    padding: 0px;
+                    width: 231px; /*---ADJUST---*/
+                    height: 50px; /*---ADJUST---*/
+                }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-2 ul li {
+                        margin: 0px;
+                        padding: 10px 26px 4px 26px;
+                        float: left;
+                        border: 4px solid transparent;
+                        list-style-type: none;
+                        font-size: 30px;
+                        color: #c4dfe6;
+                        text-align: center;
+                    }
+
+                #Main-Section .Div-1 .Block-1 .Tier-2 .a {
+                    margin: auto;
+                    padding: 0px;
+                    width: 324px; /*---ADJUST---*/ /*Due to 2px border of img*/
+                    height: auto;
+                }
+
+                    #Main-Section .Div-1 .Block-1 .Tier-2 .a h3 {
+                        margin: 0px;
+                        padding: 20px 0px 5px 0px;
+                        color: white;
+                    }
+/*------------------------------------------*/

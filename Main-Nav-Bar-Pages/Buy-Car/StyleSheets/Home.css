@@ -1,0 +1,121 @@
+﻿/*---------------------------------------*/
+#Main-Section {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Section .Div-1 {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+        #Main-Section .Div-1 .Tier-1 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+            #Main-Section .Div-1 .Tier-1 h1 {
+                margin: 0px;
+                padding: 0px;
+                color: #121a27;
+                font-size: 20px;
+                text-decoration: underline;
+            }
+
+            #Main-Section .Div-1 .Tier-1 .a {
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+            }
+
+                #Main-Section .Div-1 .Tier-1 .a input[type="text"] {
+                    margin: 0px 0px 10px 0px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: 200px; /*---ADJUST---*/
+                    height: 20px; /*---ADJUST---*/
+                }
+
+                #Main-Section .Div-1 .Tier-1 .a input[type="number"] {
+                    margin: 0px 0px 10px 0px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: 100px; /*---ADJUST---*/
+                    height: 20px; /*---ADJUST---*/
+                }
+
+                #Main-Section .Div-1 .Tier-1 .a label {
+                    margin: 0px;
+                    padding: 0px;
+                    color: #121a27;
+                }
+
+                #Main-Section .Div-1 .Tier-1 .a img {
+                    margin: 0px 0px 0px 0px; /*---ADJUST---*/
+                    padding: 0px;
+                    width: 20px; /*---ADJUST---*/
+                    height: 20px; /*---ADJUST---*/
+                    border: 2px solid #07575b;
+                }
+
+        #Main-Section .Div-1 .Tier-2 {
+            margin: 0px 0px 0px 50px;
+            padding: 0px;
+            display: inline-block;
+        }
+
+            #Main-Section .Div-1 .Tier-2 h1 {
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                text-decoration: underline;
+                color: #121a27;
+            }
+
+            #Main-Section .Div-1 .Tier-2 .a {
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                justify-content: center;
+            }
+
+                #Main-Section .Div-1 .Tier-2 .a ul {
+                    margin: 0px 20px 0px 20px;
+                    padding: 0px;
+                    list-style-type: none;
+                }
+
+                    #Main-Section .Div-1 .Tier-2 .a ul li {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+    #Main-Section .Div-2 {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+        #Main-Section .Div-2 ul {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+            #Main-Section .Div-2 ul li {
+                margin: 0px;
+                padding: 10px;
+                color: #c4dfe6;
+                font-size: 20px;
+                background: #121a27;
+                border: 3px solid transparent;
+            }
+/*-----------------Transitions----------------------*/
+#Main-Section .Div-1 .Tier-2 .a ul li:hover {
+        text-decoration: underline;
+}
+/*---------------------------------------*/

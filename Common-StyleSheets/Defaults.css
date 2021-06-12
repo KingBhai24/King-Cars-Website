@@ -1,0 +1,53 @@
+/*
+#003b46		Nav Bar and Aside Bar list item background color to tell on which page you are
+#07575b		borders of header icons and items of Div-1
+#66a5ad		nav bar list and aside bar list items background color on hover
+#c4dfe6		logo heading, join now, nav bar list item, aside bar list item, footer color, nav bar list item, aside bar list item border left and right to tell on which page you are
+#121a27		nav bar, aside bar background color and main section heading color
+
+Main-Section-Images dimension = (320x240px + 2px border)
+*/
+/*---------------------------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Div-Body /*Container for complete page*/ {
+    margin: auto;
+    padding: 0px;
+    width: 1349px; /*---ADJUST---*/
+    height: auto;
+}
+/*---------------------------------------*/
+.Div-S /*Division for Separation*/ {
+    margin: 20px 0px 20px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: inherit;
+    height: 30px; /*---ADJUST---*/
+    background-color: #121a27;
+}
+
+.Div-E /*Division for EndingSpace*/ {
+    margin: 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: inherit;
+    height: 20px; /*---ADJUST---*/
+}
+/*---------------------------------------*/
+a:link, a:hover, a:active, a:visited {
+    all: unset;
+    display: inline;
+}
+
+a:hover, input[type = "radio"]:hover, input[type = "submit"]:hover, input[type = "date"]:hover {
+    cursor: pointer;
+}
+/*---------------------------------------*/
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
+    cursor: default;
+}
+/*-----------------Transitions----------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/

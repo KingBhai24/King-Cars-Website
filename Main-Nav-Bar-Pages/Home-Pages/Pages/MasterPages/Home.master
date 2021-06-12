@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Footer/Pages/Footer.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link rel="stylesheet" href="../../StyleSheets/LayoutAdjustments-Stylings.css" />
+    <link rel="stylesheet" href="../../StyleSheets/PseudoStates-Transitions.css" />
+
+    <title>King Cars</title>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="Server">
+    <!-- ===================================== -->
+    <header id="Main-Header">
+        <div class="Div-1">
+            <div class="Block-1">
+                <img id="Company-Logo" src="../../../../Common-Images/Company-Logo.png" />
+                <h1 id="Logo-Heading">King Cars</h1>
+
+                <a href="#">
+                    <img id="User-Logo" src="../../../../Common-Images/User-Logo.png" title="User" /></a>
+                <a href="#">
+                    <img id="Favourite-Logo" src="../../../../Common-Images/Favourite-Logo.png" title="Favourites" /></a>
+                <a href="#">
+                    <img id="Cart-Logo" src="../../../../Common-Images/Cart-Logo.png" title="Cart" /></a>
+                <a href="#">
+                    <img id="Search-Logo" src="../../../../Common-Images/Search-Logo.png" title="Search" /></a>
+                <input id="Search-Bar" type="text" placeholder="Search" />
+            </div>
+        </div>
+
+        <div class="Div-2">
+            <h1>Find Your Dream Car</h1>
+        </div>
+
+        <div class="Div-3">
+            <ul>
+                <a href="../../../../Single-Pages/SignUp-Page/SignUp.aspx" target ="_blank" title="SignUp">
+                    <li>Join Now</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <!-- ===================================== -->
+    <nav id="Main-Nav-Bar">
+        <ul>
+            <a href="../SubPages/Index.aspx" name="view-1">
+                <li>Home</li>
+            </a>
+            <a href="../../../Buy-Car/Pages/SubPages/Home.aspx" target ="_blank">
+                <li>Buy Car</li>
+            </a>
+            <a href="../../../Promotions/Pages/SubPages/Promotions.aspx" target ="_blank">
+                <li>Promotions</li>
+            </a>
+            <a href="../../../Service-Repair/Pages/SubPages/Home.aspx" target ="_blank">
+                <li>Service and Repair</li>
+            </a>
+            <a href="../../../Sell-Car-Pages/Pages/SubPages/Sell-Car.aspx" target="_blank">
+                <li>Sell Car</li>
+            </a>
+            <a href="../../../About-us-Pages/Pages/SubPages/About-us.aspx" target="_blank">
+                <li>About us</li>
+            </a>
+            <a href="../../../Contact-us-Pages/Pages/SubPages/Contact-us.aspx" target="_blank">
+                <li>Contact us</li>
+            </a>
+        </ul>
+    </nav>
+    <!-- ===================================== -->
+    <div id="Main-Aside-Bar-Section">
+        <!-- ===================================== -->
+        <aside id="Main-Aside-Bar">
+            <ul>
+                <a href="../SubPages/Index.aspx#view-1">
+                    <li>Lamborghini</li>
+                </a>
+                <a href="../SubPages/Mercedes.aspx#view-1">
+                    <li>Mercedes</li>
+                </a>
+                <a href="../SubPages/McLaren.aspx#view-1">
+                    <li>McLaren</li>
+                </a>
+                <a href="../SubPages/Jaguar.aspx#view-1">
+                    <li>Jaguar</li>
+                </a>
+                <a href="../SubPages/Toyota.aspx#view-1">
+                    <li>Toyota</li>
+                </a>
+                <a href="../SubPages/Honda.aspx#view-1">
+                    <li>Honda</li>
+                </a>
+                <a href="../SubPages/BMW.aspx#view-1">
+                    <li>BMW</li>
+                </a>
+                <a href="../SubPages/Audi.aspx#view-1">
+                    <li>Audi</li>
+                </a>
+                <a href="../SubPages/Ford.aspx#view-1">
+                    <li>Ford</li>
+                </a>
+            </ul>
+        </aside>
+        <!-- ===================================== -->
+        <section id="Main-Section">
+
+            <div class="Div-1">
+                <h1>Latest Models</h1>
+            </div>
+
+            <div class="Div-2">
+                <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </section>
+        <!-- ===================================== -->
+    </div>
+    <!-- ===================================== -->
+</asp:Content>

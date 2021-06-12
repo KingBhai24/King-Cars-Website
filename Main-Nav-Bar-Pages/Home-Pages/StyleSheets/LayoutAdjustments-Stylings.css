@@ -1,0 +1,237 @@
+/*---------------------------------------*/
+#Main-Header {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: 750px; /*---ADJUST---*/
+    background-image: url(../Images/Main-Header/Background-Image-1.png);
+    background-repeat: no-repeat;
+}
+
+    #Main-Header .Div-1 /*Container for Company-Logo, Logo-Heading, Search-Bar, Search-Icon, Cart-Icon, Favourite-Icon, User-Icon*/ {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Header .Div-1 .Block-1 /* Formality Container for Company-Logo, Logo-Heading, Search-Bar, Search-Icon, Cart-Icon, Favourite-Icon, User-Icon*/ {
+            margin: 0px;
+            padding: 0px;
+            width: inherit;
+            height: 100px; /*---ADJUST---*/
+        }
+
+#Company-Logo {
+    margin: 8px 0px 0px 20px; /*---ADJUST---*/
+    padding: 0px;
+    width: 250px; /*---ADJUST---*/
+    height: 80px; /*---ADJUST---*/
+    float: left;
+    border: 2px solid #07575b;
+    border-radius: 50%;
+}
+
+#Logo-Heading {
+    margin: 20px 0px 0px 20px; /*---ADJUST---*/
+    padding: 0px;
+    float: left;
+    font-size: 40px;
+    color: #c4dfe6;
+    text-decoration: underline;
+}
+
+#Search-Bar {
+    margin: 35px 0px 0px 0px; /*---ADJUST---*/
+    padding: 0px 0px 0px 10px; /*---ADJUST---*/
+    width: 300px; /*---ADJUST---*/
+    height: 26px; /*---ADJUST---*/
+    float: right;
+    border: 2px solid #07575b;
+    border-right: 0px;
+}
+
+#Search-Logo, #Cart-Logo, #Favourite-Logo, #User-Logo {
+    margin: 35px 10px 0px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: 26px; /*---ADJUST---*/
+    height: 26px; /*---ADJUST---*/
+    float: right;
+    border: 2px solid #07575b;
+}
+
+#Main-Header .Div-2 /*Container for Heading only*/ {
+    margin: 40px 0px 0px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: inherit;
+    height: auto;
+}
+
+    #Main-Header .Div-2 h1 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: sans-serif;
+        font-size: 50px;
+        color: white;
+    }
+
+#Main-Header .Div-3 /*Container for Unordered list*/ {
+    margin: 6px 0px 0px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: inherit;
+    height: auto;
+    text-align: center;
+}
+
+    #Main-Header .Div-3 ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        list-style-type: none;
+        font-size: 30px;
+        color: #c4dfe6;
+    }
+
+        #Main-Header .Div-3 ul li {
+            margin: 0px;
+            padding: 4px 26px 4px 26px; /*---ADJUST---*/
+            border: 4px solid transparent;
+        }
+/*---------------------------------------*/
+#Main-Nav-Bar {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: auto;
+    background-color: #121a27;
+    text-align: right;
+    position: sticky;
+    top: 0px;
+}
+
+    #Main-Nav-Bar ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        list-style-type: none;
+        font-size: 18px;
+        color: #c4dfe6;
+    }
+
+        #Main-Nav-Bar ul li {
+            margin: 0px;
+            padding: 9px 70px 4px 20px; /*---ADJUST---*/
+            display: inline-block;
+            border: 3px solid transparent;
+        }
+/*---------------------------------------*/
+#Main-Aside-Bar-Section {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: 1850px; /*---ADJUST---*/
+}
+/*---------------------------------------*/
+#Main-Aside-Bar {
+    margin: 30px 0px 0px 0px; /*---ADJUST---*/
+    padding: 0px;
+    width: 105px; /*---ADJUST---*/
+    height: 525px; /*---ADJUST---*/
+    float: left;
+    background-color: #121a27;
+    position: sticky;
+    top: 70px;
+}
+
+    #Main-Aside-Bar ul {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: inherit;
+        list-style-type: none;
+    }
+
+        #Main-Aside-Bar ul li {
+            margin: 10px 0px 0px 0px; /*---ADJUST---*/
+            padding: 10px 0px 10px 5px; /*---ADJUST---*/
+            border: 3px solid transparent;
+            font-size: 16px;
+            color: #c4dfe6;
+        }
+/*---------------------------------------*/
+#Main-Section {
+    margin: 0px;
+    padding: 0px;
+    width: 1244px; /*---ADJUST---*/
+    height: inherit;
+    float: right;
+}
+
+    #Main-Section .Div-1 /*Container for Heading only*/ {
+        margin: 20px 0px 0px 0px; /*---ADJUST---*/
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Section .Div-1 h1 {
+            margin: 0px;
+            padding: 0px 0px 10px 0px; /*---ADJUST---*/
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+            color: #121a27;
+            border-bottom: 3px solid #121a27;
+        }
+
+    #Main-Section .Div-2 /*Container for all Years, Images, Captions, Overlayed Texts*/ {
+        margin: 0px;
+        padding: 0px;
+        width: inherit;
+        height: auto;
+    }
+
+        #Main-Section .Div-2 .Block-1 /*Container for one Year, Images, Captions, Overlayed Texts*/ {
+            margin: 0px;
+            padding: 0px;
+            width: inherit;
+            height: auto;
+        }
+
+            #Main-Section .Div-2 .Block-1 h1 {
+                margin: 20px 0px 0px 71px; /*---ADJUST---*/
+                padding: 0px;
+                font-family: sans-serif;
+                font-size: 22px;
+                font-weight: bold;
+                text-decoration: underline;
+                color: #121a27;
+            }
+
+            #Main-Section .Div-2 .Block-1 .Part-1 /*Container for Images, Captions, Overlayed Texts in one row*/ {
+                margin: 10px 0px 0px 0px; /*---ADJUST---*/
+                padding: 0px;
+                display: inline-block;
+            }
+
+                #Main-Section .Div-2 .Block-1 .Part-1 figure {
+                    margin: 0px 0px 0px 68px; /*---ADJUST---*/
+                    padding: 0px;
+                    display: inline-block;
+                }
+
+                    #Main-Section .Div-2 .Block-1 .Part-1 figure figcaption {
+                        margin: 0px;
+                        padding: 5px 0px 0px 0px; /*---ADJUST---*/
+                        width: inherit;
+                        height: auto;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        text-align: center;
+                        color: #121a27;
+                    }
+/*---------------------------------------*/
