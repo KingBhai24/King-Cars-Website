@@ -1,5 +1,5 @@
 # King-Cars-Website
-Simple website for selling and buying branded cars.
+Website for selling and buying branded cars.
 Developed on ASP.net technology.
 Uses HTML and CSS for frontend.
 Uses MySQL for database.
